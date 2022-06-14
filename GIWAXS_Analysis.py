@@ -22,6 +22,9 @@ print("Using pyFAI version",pyFAI.version)
 get_ipython().run_line_magic('matplotlib', 'inline')
 get_ipython().run_line_magic('pylab', 'inline')
 
+# checking for changes 
+display('hello')
+
 
 # Use anaconda prompt to run "pyFAI-calib2" and follow the documentation to create a .poni file for the detector and calibrant
 
